@@ -24,12 +24,4 @@ app.get('/', (req, res) => {
   res.render('index', { title: 'Welcome Page', welcomeMsg: 'You are welcome.' });
 });
 
-/**
-  * Start Express server
-  */
-const server = http.createServer(app);
-server.listen(app.get('port'), () => {
-  log.info('Server is running at port %s', app.get('port'));
-});
-
 module.exports = app;
