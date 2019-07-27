@@ -1,6 +1,5 @@
 import express from 'express';
 import helmet from 'helmet';
-import http from 'http';
 import path from 'path';
 import cors from 'cors';
 import bodyParser from 'body-parser';
