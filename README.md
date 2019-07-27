@@ -1,2 +1,2 @@
-# node-express-mongo-crud
-A basic starter for a web app with node, express and mongoose
+# parcel-node-express-mongo
+A basic starter for a web app with parceljs, node, express and mongoose
