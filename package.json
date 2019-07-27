@@ -4,7 +4,7 @@
   "description": "A basic starter web app with parceljs, node, express and mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest test/request.test.js",
     "server": "nodemon --exec babel-node app.js | bunyan -o short"
   },
   "repository": {
@@ -30,6 +30,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "bunyan": "^1.8.12",
+    "core-js": "^3.1.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^3.20.0",
@@ -39,6 +40,8 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/preset-env": "^7.5.5",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
   }
 }
