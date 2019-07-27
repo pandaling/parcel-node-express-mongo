@@ -1,4 +1,6 @@
 # parcel-node-express-mongo
+[![Build Status](https://travis-ci.org/pandaling/parcel-node-express-mongo.svg?branch=master)](https://travis-ci.org/pandaling/parcel-node-express-mongo)
+
 A basic starter for a web app with parceljs, node, express and mongoose
 
 ## Pre-start
