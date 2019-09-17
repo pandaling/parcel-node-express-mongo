@@ -5,7 +5,6 @@ A basic starter for a web app with parceljs, node, express and mongoose
 
 ## Pre-start
 	- npm
-	- nodemon installed globally in your laptop
 
 ## Features
 	- Babel 7
@@ -19,3 +18,7 @@ A basic starter for a web app with parceljs, node, express and mongoose
 	- npm install
 	- npm run server
 	- open browser to `localhost:8000` (port default to 8000)
+
+## Mongo DB
+	- test api with postman
+	- eg: 'localhost:8000/user/create'
