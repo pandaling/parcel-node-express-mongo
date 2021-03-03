@@ -37,7 +37,7 @@
     "helmet": "^3.20.0",
     "mongoose": "^5.7.1",
     "nodemon": "^1.19.2",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
